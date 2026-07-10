@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
       name: "Wireless Earbuds",
       price: "Rs 2999",
       image: "https://via.placeholder.com/200x200/00d2d3/fff?text=Earbuds",
+      https://www.daraz.pk/products/zero-rover-pro-wireless-earbuds-bluetooth-53v-gaming-earbuds-11mm-base-driver-earbuds-quad-mic-enc-earbuds-for-calling-noise-cancelling-earbuds-bluetooth-earbuds-for-ios-and-android-best-earbuds-for-men-and-women-i596345009-s2749743739.html?pvid=bdb8a8ff-4594-49d2-9265-00bafe8054bd&search=jfy&scm=1007.51705.481011.0&priceCompare=skuId%3A2749743739%3Bsource%3Atpp-recommend-plugin-41701%3Bip%3A33.65.2.215%3Bsn%3Abdb8a8ff-4594-49d2-9265-00bafe8054bd%3BunionTrace%3A2141358617837114129176719e6a6f%3BoriginPrice%3A379900%3BsubsidyPrice%3A379900%3BacrossSubsidyPrice%3A379900%3BshopPrice%3A379900%3BvoucherPrice%3A379900%3BdisplayPrice%3A379900%3BisGray%3Afalse%3BsinglePromotionId%3A50000073336006%3BsingleToolCode%3ApromPrice%3BvoucherPricePlugin%3A1%3BbuyerId%3A0%3BnewBuyer%3Afalse%3Btimestamp%3A1783711413006%3BisPreHeat%3Afalse%3BisPreHeat%3Afalse%3BitemType%3A0&spm=a2a0e.tm80335142.jfy.dJFY_all_7
       link: "https://daraz.pk"
     },
     {
@@ -57,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // HOME & DAILY USE
     {
-      name: "Kitchen Blender",
+      name: "Kitchen Blenhttps://www.daraz.pk/products/
       price: "Rs 4999",
       image: "https://via.placeholder.com/200x200/c8d6e5/000?text=Blender",
       link: "https://daraz.pk"
