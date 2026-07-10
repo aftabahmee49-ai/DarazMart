@@ -45,12 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
     {
       name: "Wireless Earbuds",
       price: "Rs 2999",
-      image: "https://via.placeholder.com/200x200/00d2d3/fff?text=Earbuds",https://www.daraz.pk/products/zero-rover-pro-wireless-earbuds-bluetooth-53v-gaming-earbuds-11mm-base-driver-earbuds-quad-mic-enc-earbuds-for-calling-noise-cancelling-earbuds-bluetooth-earbuds-for-ios-and-android-best-earbuds-for-men-and-women-i596345009-s2749743739."https:
-      link: "https://daraz.pk"
-    },
-    {
-      name: "Power Bank 20000mAh",
-      
+      image: "https://via.placeholder.com/200x200/00d2d3/fff?text=Earbuds",https://www.daraz.pk/products/zero-rover-pro-wireless-earbuds-bluetooth-53v-gaming-earbuds-11mm-base-driver-earbuds-quad-mic-enc-earbuds-for-calling-noise-cancelling-earbuds-bluetooth-earbuds-for-ios-and-android-best-earbuds-for-men-and-women-i596345009-s2749743739.html?
       link: "https://daraz.pk"
     },
     {
@@ -62,7 +57,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // HOME & DAILY USE
     {
-      name: "Kitchen Blenhttps://www.daraz.pk/products/
+      name: "Kitchen Blender",
       price: "Rs 4999",
       image: "https://via.placeholder.com/200x200/c8d6e5/000?text=Blender",
       link: "https://daraz.pk"
