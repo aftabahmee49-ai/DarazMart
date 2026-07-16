@@ -16,23 +16,54 @@
   
   <script src="./script.js"></script>
 </body>
+  
+<header class="navbar">
+  <!-- LEFT: Hamburger + Logo -->
+  <div class="nav-left">
+    <button class="hamburger" onclick="toggleMenu()">☰</button>
+    <h1>DarazMart</h1>
+  </div>
 
-<div class="slider">
-  <img class="slide" src="https://via.placeholder.com/1200x300/0066cc/ffffff?text=50% OFF on Electronics" style="display:block">
-  <img class="slide" src="https://via.placeholder.com/1200x300/ff6600/ffffff?text=New Fashion Collection" style="display:none">
-  <img class="slide" src="https://via.placeholder.com/1200x300/00aa44/ffffff?text=Free Delivery" style="display:none">
-  <button class="prev" onclick="plusSlides(-1)">❮</button>
-  <button class="next" onclick="plusSlides(1)">❯</button>
+  <!-- MIDDLE: Search -->
+  <input type="text" id="search" placeholder="Search in DarazMart">
+
+  <!-- RIGHT: Login/Signup -->
+  <div class="nav-right">
+    <button class="login-btn" onclick="openLogin()">🔑 Login</button>
+    <button class="signup-btn" onclick="openSignup()">📝 Sign Up</button>
+  </div>
+</header>
+
+<!-- SIDE MENU - Hamburger click pe khulega -->
+<div id="sideMenu" class="side-menu">
+  <a href="#" onclick="filterCat('All')">🏠 Home</a>
+  <a href="#" onclick="filterCat('Clothes')">👕 Clothes</a>
+  <a href="#" onclick="filterCat('Electronics')">📱 Electronics</a>
+  <a href="#" onclick="filterCat('Bags')">👜 Bags</a>
+  <a href="#" onclick="filterCat('Home')">🏡 Home & Living</a>
+  <a href="#" onclick="openLogin()">🔑 Login</a>
+  <a href="#" onclick="openSignup()">📝 Sign Up</a>
 </div>
 
+<!-- LOGIN POPUP -->
 <div id="loginPopup" class="popup">
   <div class="popup-content">
     <span class="close" onclick="closeLogin()">×</span>
-    <h2>Login to DarazMart</h2>
+    <h2>Login</h2>
     <input type="text" placeholder="Email or Phone">
     <input type="password" placeholder="Password">
     <button class="btn">Login</button>
-    <p>New User? <a href="#">Create Account</a></p>
   </div>
 </div>
-</html>
+
+<!-- SIGNUP POPUP -->
+<div id="signupPopup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closeSignup()">×</span>
+    <h2>Sign Up</h2>
+    <input type="text" placeholder="Full Name">
+    <input type="text" placeholder="Email or Phone">
+    <input type="password" placeholder="Password">
+    <button class="btn">Create Account</button>
+  </div>
+</div>
