@@ -50,3 +50,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
   showProducts(products);
 });
+
+let slideIndex = 0;
+showSlides();
+
+function plusSlides(n) {
+  slideIndex += n;
+  showSlides();
+}
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide");
+  if (slideIndex >= slides.length) {slideIndex = 0}
+  if (slideIndex < 0) {slideIndex = slides.length - 1}
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex].style.display = "block";
+}
+
+// Auto slider har 3 second baad
+setInterval(() => { plusSlides(1) }, 3000);
+
+// LOGIN POPUP KA CODE
+function openLogin() {
+  document.getElementById("loginPopup").style.display = "block";
+}
+
+function closeLogin() {
+  document.getElementById("loginPopup").style.display = "none";
+}
