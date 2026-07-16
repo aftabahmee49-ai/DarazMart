@@ -16,4 +16,29 @@
   
   <script src="./script.js"></script>
 </body>
+
+<div class="slider">
+  <img class="slide" src="https://via.placeholder.com/1200x300/0066cc/ffffff?text=50% OFF on Electronics" style="display:block">
+  <img class="slide" src="https://via.placeholder.com/1200x300/ff6600/ffffff?text=New Fashion Collection" style="display:none">
+  <img class="slide" src="https://via.placeholder.com/1200x300/00aa44/ffffff?text=Free Delivery" style="display:none">
+  <button class="prev" onclick="plusSlides(-1)">❮</button>
+  <button class="next" onclick="plusSlides(1)">❯</button>
+</div>
+  
+<header>
+  <h1>DarazMart</h1>
+  <input type="text" id="search" placeholder="Search products...">
+  <button class="login-btn" onclick="openLogin()">🔑 Login</button>
+</header>
+
+<div id="loginPopup" class="popup">
+  <div class="popup-content">
+    <span class="close" onclick="closeLogin()">×</span>
+    <h2>Login to DarazMart</h2>
+    <input type="text" placeholder="Email or Phone">
+    <input type="password" placeholder="Password">
+    <button class="btn">Login</button>
+    <p>New User? <a href="#">Create Account</a></p>
+  </div>
+</div>
 </html>
